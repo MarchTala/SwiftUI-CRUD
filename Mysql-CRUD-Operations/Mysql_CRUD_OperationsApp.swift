@@ -11,7 +11,7 @@ import SwiftUI
 struct Mysql_CRUD_OperationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(ViewModel())
         }
     }
 }
